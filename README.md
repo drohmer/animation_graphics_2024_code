@@ -1,4 +1,4 @@
-# Lab class exercises for INF585 Computer Animation
+# Lab class exercises for the Animation in Graphics Training Days 2024
 
 ## Download
 
@@ -7,22 +7,22 @@
 ### Clone
 
 ```
-git clone --recurse-submodules https://github.com/drohmer/inf585_lab_code.git
+git clone --recurse-submodules https://github.com/drohmer/animation_graphics_2024_code.git
 ```
 
 or
 
 ```
-git clone https://github.com/drohmer/inf585_lab_code.git
-cd inf585_lab_code/
+git clone https://github.com/drohmer/animation_graphics_2024_code.git
+cd animation_graphics_2024_code/
 git submodule init
 git submodule update
 ```
 
 ### Download archive
 
-* [inf585_lab_code.zip](https://imagecomputing.net/course/2023_2024/inf585/lab_code/inf585_lab_code.zip)
-* [inf585_lab_code.tar.gz](https://imagecomputing.net/course/2023_2024/inf585/lab_code/inf585_lab_code.tar.gz)
+* [animation_graphics_2024_code.zip](https://imagecomputing.net/course/2024_gdr_igrv/animation_graphics_2024/lab_code/animation_graphics_2024_code.zip)
+* [animation_graphics_2024_code.tar.gz](hhttps://imagecomputing.net/course/2024_gdr_igrv/animation_graphics_2024/lab_code/animation_graphics_2024_code.tar.gz)
 
 
 _Note: Do not use the "Code -> Download ZIP" option from the GitHub GUI as you won't get the CGP library as submodule with the code._
@@ -30,13 +30,13 @@ _Note: Do not use the "Code -> Download ZIP" option from the GitHub GUI as you w
 
 ## Compilation
 
-Scenes are in a directory _scenes_inf585/xx_Name/_
+Scenes are in a directory _scenes_animation_graphics_2024/xx_Name/_
 
 Each scene is provided with its own CMakeLists.txt and Makefile
 
 Compilation via CMake
 ```
-cd inf585_lab_code/scenes_inf585/00_introduction/
+cd animation_graphics_2024/scenes_animation_graphics_2024/00_introduction/
 cmake -B build/
 cd build/
 make -j8 # or any -jN, with N=$(nproc)
@@ -45,7 +45,7 @@ make -j8 # or any -jN, with N=$(nproc)
 
 Compilation via Makefile
 ```
-cd scenes_inf585/00_introduction/
+cd animation_graphics_2024/scenes_animation_graphics_2024/00_introduction/
 make -j8 # or any -jN, with N=$(nproc)
 ./00_introduction
 ```
@@ -76,6 +76,8 @@ export LIBRARY_PATH=/opt/homebrew/lib
 
 The simplest way is the use of [Visual Studio](https://visualstudio.microsoft.com/downloads/) with the __scripts/windows_cmake_visual.bat__ generating a visual studio project.
 
+* 1) Run `scripts/windows_cmake_visual.bat`
+* 2) Then open `build/[directoryName].sln`
 
 ## IDE
 
@@ -98,14 +100,7 @@ You may use the provided scripts (in directory scripts/) and configuration files
 
 ## Links
 
-* [Lab class exercises](https://imagecomputing.net/course/2023_2024/inf585/lab)
+* [Training days content](https://imagecomputing.net/course/2024_gdr_igrv/animation_graphics_2024/)
 * [Documentation on CGP library](https://imagecomputing.net/cgp/index.html)
 
 
-* [INF585 Course Website](https://damienrohmer.com/data/teaching/2022_2023/x-inf585)
-
-### Open source content
-
-* [Source lab class content](https://github.com/drohmer/inf585_lab_class)
-* [Source slides content](https://github.com/drohmer/inf585_lecture_slides)
-* [Source CGP library](https://github.com/drohmer/cgp)
