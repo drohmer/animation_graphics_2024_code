@@ -22,7 +22,7 @@ git submodule update
 ### Download archive
 
 * [animation_graphics_2024_code.zip](https://imagecomputing.net/course/2024_gdr_igrv/animation_graphics_2024/lab_code/animation_graphics_2024_code.zip)
-* [animation_graphics_2024_code.tar.gz](hhttps://imagecomputing.net/course/2024_gdr_igrv/animation_graphics_2024/lab_code/animation_graphics_2024_code.tar.gz)
+* [animation_graphics_2024_code.tar.gz](https://imagecomputing.net/course/2024_gdr_igrv/animation_graphics_2024/lab_code/animation_graphics_2024_code.tar.gz)
 
 
 _Note: Do not use the "Code -> Download ZIP" option from the GitHub GUI as you won't get the CGP library as submodule with the code._
