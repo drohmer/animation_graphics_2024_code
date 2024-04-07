@@ -90,6 +90,7 @@ void scene_structure::display_billboard()
 		//    ...
 		//  The transparency of the sprite can be set using
 		//    billboard.material.alpha = value in [0,1] (0=opaque, 1=transparent)
+		//  The current life time of the billboard (in sec) can be obtained via: timer_billboard.t - particle.t0
 		//
 		/*  The following line need to be replaced by a correct version */ 
 		billboard.model.translation = { 0.0, k * 0.6, 0.0f };
