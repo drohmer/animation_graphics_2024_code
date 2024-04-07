@@ -3,7 +3,7 @@
 {
 	"folders": [
 		{
-			"name": "Scene-10_shape_matching",
+			"name": "Scene-05_shape_matching",
 			"path": "."
 		},
 		{
@@ -21,8 +21,8 @@
 			"type": "cppdbg",
 			"request": "launch",
 			"name": "C++ Run",
-			"program": "${workspaceFolder:Scene-10_shape_matching}/build/10_shape_matching",
-			"cwd": "${workspaceFolder:Scene-10_shape_matching}",
+			"program": "${workspaceFolder:Scene-05_shape_matching}/build/05_shape_matching",
+			"cwd": "${workspaceFolder:Scene-05_shape_matching}",
 			"linux": {
 				"MIMode": "gdb"
 			},

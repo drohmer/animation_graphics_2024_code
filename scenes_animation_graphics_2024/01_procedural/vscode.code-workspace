@@ -3,7 +3,7 @@
 {
 	"folders": [
 		{
-			"name": "Scene-04_cloth",
+			"name": "Scene-01_procedural",
 			"path": "."
 		},
 		{
@@ -21,8 +21,8 @@
 			"type": "cppdbg",
 			"request": "launch",
 			"name": "C++ Run",
-			"program": "${workspaceFolder:Scene-04_cloth}/build/04_cloth",
-			"cwd": "${workspaceFolder:Scene-04_cloth}",
+			"program": "${workspaceFolder:Scene-01_procedural}/build/01_procedural",
+			"cwd": "${workspaceFolder:Scene-01_procedural}",
 			"linux": {
 				"MIMode": "gdb"
 			},

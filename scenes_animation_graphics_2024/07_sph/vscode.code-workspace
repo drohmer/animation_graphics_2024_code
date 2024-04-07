@@ -3,7 +3,7 @@
 {
 	"folders": [
 		{
-			"name": "Scene-12_sph",
+			"name": "Scene-07_sph",
 			"path": "."
 		},
 		{
@@ -21,8 +21,8 @@
 			"type": "cppdbg",
 			"request": "launch",
 			"name": "C++ Run",
-			"program": "${workspaceFolder:Scene-12_sph}/build/12_sph",
-			"cwd": "${workspaceFolder:Scene-12_sph}",
+			"program": "${workspaceFolder:Scene-07_sph}/build/07_sph",
+			"cwd": "${workspaceFolder:Scene-07_sph}",
 			"linux": {
 				"MIMode": "gdb"
 			},

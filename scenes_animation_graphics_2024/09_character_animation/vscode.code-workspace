@@ -3,7 +3,7 @@
 {
 	"folders": [
 		{
-			"name": "Scene-06_character_animation",
+			"name": "Scene-09_character_animation",
 			"path": "."
 		},
 		{
@@ -21,8 +21,8 @@
 			"type": "cppdbg",
 			"request": "launch",
 			"name": "C++ Run",
-			"program": "${workspaceFolder:Scene-06_character_animation}/build/06_character_animation",
-			"cwd": "${workspaceFolder:Scene-06_character_animation}",
+			"program": "${workspaceFolder:Scene-09_character_animation}/build/09_character_animation",
+			"cwd": "${workspaceFolder:Scene-09_character_animation}",
 			"linux": {
 				"MIMode": "gdb"
 			},

@@ -3,7 +3,7 @@
 {
 	"folders": [
 		{
-			"name": "Scene-08_sphere_collision",
+			"name": "Scene-03_sphere_collision",
 			"path": "."
 		},
 		{
@@ -21,8 +21,8 @@
 			"type": "cppdbg",
 			"request": "launch",
 			"name": "C++ Run",
-			"program": "${workspaceFolder:Scene-08_sphere_collision}/build/08_sphere_collision",
-			"cwd": "${workspaceFolder:Scene-08_sphere_collision}",
+			"program": "${workspaceFolder:Scene-03_sphere_collision}/build/03_sphere_collision",
+			"cwd": "${workspaceFolder:Scene-03_sphere_collision}",
 			"linux": {
 				"MIMode": "gdb"
 			},

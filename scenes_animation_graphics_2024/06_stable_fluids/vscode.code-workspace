@@ -3,7 +3,7 @@
 {
 	"folders": [
 		{
-			"name": "Scene-11_stable_fluids",
+			"name": "Scene-06_stable_fluids",
 			"path": "."
 		},
 		{
@@ -21,8 +21,8 @@
 			"type": "cppdbg",
 			"request": "launch",
 			"name": "C++ Run",
-			"program": "${workspaceFolder:Scene-11_stable_fluids}/build/11_stable_fluids",
-			"cwd": "${workspaceFolder:Scene-11_stable_fluids}",
+			"program": "${workspaceFolder:Scene-06_stable_fluids}/build/06_stable_fluids",
+			"cwd": "${workspaceFolder:Scene-06_stable_fluids}",
 			"linux": {
 				"MIMode": "gdb"
 			},
