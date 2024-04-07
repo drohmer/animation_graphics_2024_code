@@ -3,7 +3,7 @@
 {
 	"folders": [
 		{
-			"name": "Scene-08_skinning",
+			"name": "Scene-08_character_animation",
 			"path": "."
 		},
 		{
@@ -21,8 +21,8 @@
 			"type": "cppdbg",
 			"request": "launch",
 			"name": "C++ Run",
-			"program": "${workspaceFolder:Scene-08_skinning}/build/08_skinning",
-			"cwd": "${workspaceFolder:Scene-08_skinning}",
+			"program": "${workspaceFolder:Scene-08_character_animation}/build/08_character_animation",
+			"cwd": "${workspaceFolder:Scene-08_character_animation}",
 			"linux": {
 				"MIMode": "gdb"
 			},

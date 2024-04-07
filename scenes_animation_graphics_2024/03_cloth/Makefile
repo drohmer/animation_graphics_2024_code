@@ -1,10 +1,10 @@
-# This Makefile will generate an executable file named 08_skinning
+# This Makefile will generate an executable file named 03_cloth
 
 # This path should point to the CGP library depending on the current directory
 ## You may need to it in case you move the position of your directory
 PATH_TO_CGP = ../../cgp/library/
 
-TARGET ?= 08_skinning #name of the executable
+TARGET ?= 03_cloth #name of the executable
 SRC_DIRS ?= src/ $(PATH_TO_CGP)
 CXX = g++ #Or clang++
 

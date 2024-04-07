@@ -1,10 +1,10 @@
-# This Makefile will generate an executable file named 04_cloth
+# This Makefile will generate an executable file named 02_sphere_collision
 
 # This path should point to the CGP library depending on the current directory
 ## You may need to it in case you move the position of your directory
 PATH_TO_CGP = ../../cgp/library/
 
-TARGET ?= 04_cloth #name of the executable
+TARGET ?= 02_sphere_collision #name of the executable
 SRC_DIRS ?= src/ $(PATH_TO_CGP)
 CXX = g++ #Or clang++
 

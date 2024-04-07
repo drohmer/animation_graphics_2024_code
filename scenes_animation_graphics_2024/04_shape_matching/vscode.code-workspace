@@ -3,7 +3,7 @@
 {
 	"folders": [
 		{
-			"name": "Scene-03_sphere_collision",
+			"name": "Scene-04_shape_matching",
 			"path": "."
 		},
 		{
@@ -21,8 +21,8 @@
 			"type": "cppdbg",
 			"request": "launch",
 			"name": "C++ Run",
-			"program": "${workspaceFolder:Scene-03_sphere_collision}/build/03_sphere_collision",
-			"cwd": "${workspaceFolder:Scene-03_sphere_collision}",
+			"program": "${workspaceFolder:Scene-04_shape_matching}/build/04_shape_matching",
+			"cwd": "${workspaceFolder:Scene-04_shape_matching}",
 			"linux": {
 				"MIMode": "gdb"
 			},
