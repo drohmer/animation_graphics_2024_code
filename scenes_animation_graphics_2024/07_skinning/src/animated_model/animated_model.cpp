@@ -18,8 +18,14 @@ void animated_model_structure::skinning_lbs()
     //     - The skinning weights are available via: rigged_mesh.skinning_weight
     //       They are stored per vertex and per joint: float weight_ij = rigged_mesh.skinning_weight[vertex_i][joint_j];
     //       
+    //     - The matrices representing the joint frames can be accessed via:
+    //         - skeleton.joint_matrix_global[joint_index] : the global transformation of the joint
+    //         - skeleton.joint_matrix_global_bind_pose[joint_index] : the global transformation of the joint in the bind pose
+    //    
+    //
     //     - Given a mat4 M representing a rigid transformation (with rotation and translation only), you can compute efficiently its inverse using the syntax
     //        mat4 M_inversed = M.inverse_assuming_rigid_transform();
+    //
     //     - Consider a mat4 M representing a projective (or affine, or rigid) transformation, and a vec3 p. We call q the transformation of p by M.
     //         - If p represents a 3D point, then q can be expressed as
     //             vec3 q = vec3( M * vec4(p,1.0f) ); or similarily vec3 q = M.transform_position(p);
